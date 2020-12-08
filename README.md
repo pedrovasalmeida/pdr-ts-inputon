@@ -1,46 +1,36 @@
-# Getting Started with Create React App
+# Create React App Template
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![InputOn](https://camo.githubusercontent.com/a2e91dcd290082c03abcce3c5d82b2676363ff29eb8c8fd2a1a7186b9248f161/68747470733a2f2f692e696d6775722e636f6d2f7a6237715048682e706e67)](http://inputon.com.br)
 
-## Available Scripts
+Um template CRA configurado com:
 
-In the project directory, you can run:
+- _EditorConfig, **ESLint** e **Prettier** _(padrão Airbnb)\*\*
+- _React Hooks_
+- _Router_
+- _History_
+- _Home & 404 - Not Found pages_
+- _React Icons_
+- _Styled Components_
+- _Font 'Roboto Slab'_
 
-### `yarn start`
+## Criação do Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Para criar seu projeto utilizando o template, use o comando abaixo:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+    npx create-react-app seu-projeto --template pdr-ts-inputon
 
-### `yarn test`
+_ou, caso utilize o **Yarn**:_
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    yarn create react-app seu-projeto --template pdr-ts-inputon
 
-### `yarn build`
+Acesse a pasta do projeto:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    cd seu-projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+E para inicializá-lo, utilize o script Start padrão:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    yarn start
 
-### `yarn eject`
+_ou_
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+    npm start
