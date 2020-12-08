@@ -4,7 +4,7 @@
 
 Um template CRA configurado com:
 
-- _EditorConfig, **ESLint** e **Prettier** _(padrão Airbnb)\*\*
+- _EditorConfig, **ESLint** e **Prettier** (padrão Airbnb)\*\*_
 - _React Hooks_
 - _Router_
 - _History_
