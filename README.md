@@ -37,7 +37,7 @@ _ou_
 
 ## Logs
 
-v1.0.2:
+v1.0.3:
 
 - Packages updated;
 - ESLint rules fixed;
