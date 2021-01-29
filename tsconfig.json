@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "jsx": "react",
+    "jsx": "react-jsx",
     "outDir": "/build/",
     "allowJs": true,
     "target": "es5",
@@ -17,6 +17,6 @@
     "isolatedModules": true,
     "noEmit": true
   },
-  "include": ["template/src/*.ts", "template/src/*.tsx"],
+  "include": ["template/src/*.ts", "template/src/*.tsx", "src"],
   "exclude": ["/build/"]
 }
