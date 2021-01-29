@@ -26,7 +26,7 @@
     "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
     "import/prefer-default-export": "off",
     "no-use-before-define": "off",
-    "no-return-assign": "expect-parens",
+    "no-return-assign": 2,
     "camelcase": "off",
     "prettier/prettier": "error",
     "import/extensions": [
