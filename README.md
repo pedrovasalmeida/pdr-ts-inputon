@@ -34,3 +34,16 @@ E para inicializá-lo, utilize o script Start padrão:
 _ou_
 
     npm start
+
+## Logs
+
+v1.0.2:
+
+- Packages updated;
+- ESLint rules fixed;
+- Code linted;
+- Some other bugs fixed;
+
+v1.0.0 _(0.1.4)_:
+
+- Template created.
