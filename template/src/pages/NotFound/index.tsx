@@ -1,14 +1,16 @@
-/* eslint-disable no-return-assign */
+/** Packages */
 import React from 'react';
 
-import { Container, Logomarca, Body } from './styles';
+/** Imagens */
+import Logo from '../../assets/logo.png';
 
-import logo from '../../assets/logo.png';
+/** Componentes Personalizados */
+import { Container, Logomarca, Body } from './styles';
 
 const NotFound: React.FC = () => {
   return (
     <Container>
-      <Logomarca src={logo} alt="Logo" />
+      <Logomarca src={Logo} alt="Logo" />
 
       <Body>
         <span>POWERED BY</span>

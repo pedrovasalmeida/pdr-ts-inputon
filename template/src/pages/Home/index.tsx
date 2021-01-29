@@ -1,9 +1,13 @@
+/** Packages */
 import React from 'react';
 
+/** Ícones */
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
-import logo from '../../assets/logo.png';
+/** Imagens */
+import Logo from '../../assets/logo.png';
 
+/** Componentes Personalizados */
 import { Container, Logomarca, Body, Icons } from './styles';
 
 const Home: React.FC = () => {
@@ -13,7 +17,7 @@ const Home: React.FC = () => {
 
   return (
     <Container>
-      <Logomarca src={logo} alt="Logo" />
+      <Logomarca src={Logo} alt="Logo" />
 
       <Body>
         <span>POWERED BY</span>
