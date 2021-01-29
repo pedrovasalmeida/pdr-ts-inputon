@@ -24,7 +24,9 @@ const NotFound: React.FC = () => {
       <button
         type="button"
         className="back"
-        onClick={() => (window.location.href = '/')}
+        onClick={() => {
+          window.location.href = '/';
+        }}
       >
         VOLTAR PARA PÁGINA INICIAL
       </button>
