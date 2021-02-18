@@ -4,12 +4,12 @@ import React from 'react';
 /** My Components */
 import { Container } from './styles';
 
-const ClearPage: React.FC = () => {
+const CleanPage: React.FC = () => {
   return (
     <Container>
-      <span>ClearPage</span>
+      <span>CleanPage</span>
     </Container>
   );
 };
 
-export default ClearPage;
+export default CleanPage;
