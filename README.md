@@ -6,9 +6,8 @@ Um template CRA configurado com:
 
 - _EditorConfig, **ESLint** e **Prettier** (padrão Airbnb)\*\*_
 - _React Hooks_
-- _Router_
-- _History_
-- _Home & 404 - Not Found pages_
+- _React Router DOM_
+- _Home, 404 Not Found and Clean pages_
 - _React Icons_
 - _Styled Components_
 - _Font 'Roboto Slab'_
