@@ -10,8 +10,9 @@ import CleanPage from '../pages/CleanPage';
 const Routes: React.FC = () => (
   <Switch>
     <Route path="/" exact component={Home} />
-    <Route path="/" component={NotFound} />
     <Route path="/clean" component={CleanPage} />
+
+    <Route path="/" component={NotFound} />
   </Switch>
 );
 
