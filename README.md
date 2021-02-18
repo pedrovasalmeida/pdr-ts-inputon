@@ -37,6 +37,11 @@ _ou_
 
 ## Logs
 
+v1.0.5:
+
+- BrowserRouter from React Router DOM fixed;
+- Clean Page added;
+
 v1.0.3:
 
 - Packages updated;
